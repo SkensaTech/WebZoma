@@ -1,0 +1,66 @@
+body {
+  font-family: ProximaNova;
+}
+nav {
+  transition: 0.3s;
+}
+nav ul li a {
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.container2 {
+  width: 1170px;
+  margin: 0px auto;
+}
+nav .brand-logo {
+  font-family: ZonaMagang;
+  font-size: 1.1rem;
+}
+header {
+  height: 630px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('../img/background.png');
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h3 {
+  font-family: Raleway;
+  font-weight: 500;
+}
+header p {
+  font-size: 20px;
+}
+.title-section {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.padding {
+  padding: 40px 0;
+}
+.mini-img {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width : 1170px) {
+    .container2 {
+      width: 90%;
+    }
+}
+.desc-industri span{
+  display: block;
+}
+.line {
+  width: 50px;
+  height: .8px;
+  margin: 8px 0;
+}
+.mini-text {
+  font-size: 12px;
+}
+.desc-industri .card-action {
+  padding: 10px 20px;
+}
