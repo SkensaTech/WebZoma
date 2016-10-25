@@ -1,0 +1,36 @@
+.row::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-8 {
+  width: 66.66666666666667%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.col-x-5 {
+  width: 20%;
+}
+[class*="col-"]{
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width : 900px) {
+  .col-3 {
+    width: 50%;
+  }
+  #about .col-4 {
+    width: 50%;
+  }
+}

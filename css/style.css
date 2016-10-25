@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: Proxima Nova;
+}
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+nav {
+  position: absolute;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255,0.5);
+  width: 100%;
+  transition: 0.3s;
+  z-index: 9999;
+}
+nav ul {
+  margin: 0;
+  list-style: none;
+  float: right;
+}
+.wosh {
+  background:rgba(26, 188, 156,.8);
+  position: fixed;
+}
+nav h3 {
+  margin: 0;
+  background: url('../img/logofix.png')
+}
+.wosh a{
+}
+nav ul li {
+  float: left;
+  display: inline-block;
+}
+nav ul li a {
+  color: #fefefe;
+  text-decoration: none;
+  padding: 3px 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #009688;
+}
+nav img {
+  height: 80px;
+  float: left;
+  padding: 25px 0;
+}
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(26, 188, 156,0.6), rgba(26, 188, 156,0.6)),url('../img/17.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.box {
+  position: relative;
+  margin-top: 40%;
+}
+.box h2 {
+  margin: 0;
+  font-family: Raleway;
+  font-size: 4em;
+  color: #fefefe;
+}
+.box p {
+  color: #fefefe;
+  font-size: 18px;
+  font-weight: 500;
+}
+header img.mock {
+  height: 500px;
+  display: block;
+  margin: 20% auto 0;
+}
+.padding {
+  padding: 40px 0;
+}
+.titlesec {
+  color: #191919;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500
+}
+.line {
+  height: 2px;
+  width: 150px;
+  margin: 0px auto;
+  background: rgba(26, 188, 156,1);
+}
+.img-mockup {
+  height: 500px;
+  display: block;
+  margin: 0px auto;
+}
+#fitur ul li {
+  list-style: none;
+  margin: 20px 0;
+
+}
+
+#fitur ul > span {
+  font-family: 16px;
+}
+.title-desc {
+  font-weight: 500;
+  font-size: 1.3em;
+  font-family: Raleway;
+  color: #191919;
+  letter-spacing: 0.05em;
+}
+#galeri {
+  background: #191919;
+}
+#galeri img:target {
+  display: none;
+}
+#parallax1 {
+  height: 30vh;
+  background: linear-gradient(rgba(44, 62, 80,.7), rgba(44, 62, 80,.7)),url('../img/53ZHDXTL23.jpg');
+  background-position: center;
+  background-size: cover;
+  line-height: 30vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#parallax1 h3 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #fefefe;
+  float: left;
+  font-family: Raleway;
+  margin: 0;
+  letter-spacing: 0.07em;
+}
+.unduh-btn {
+  padding: 17px 20px;
+  color: #fefefe;
+  background: rgba(26, 188, 156,1);
+  text-decoration: none;
+  font-size: 20px;
+  left: 0;
+  position: relative;
+  border-radius: 35px;
+}
+.team h3 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.team span {
+  font-style: italic;
+}
+#contact {
+  background: linear-gradient(rgba(44, 62, 80,.7), rgba(44, 62, 80,.7)),url('../img/13.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.white-box {
+  background: #fefefe;
+  padding: 30px 40px;
+  margin: 10px;
+}
+.white-box p {
+  text-align: center;
+}
+input[type="text"],input[type="email"],textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Proxima nova;
+}
+textarea {
+  resize: none;
+  height: 200px;
+}
+input[type="submit"] {
+  background: rgba(26, 188, 156,1);
+  padding: 10px;
+  border: 0;
+  color: #fefefe;
+  font-family: Proxima Nova;
+}
+#about figure {
+  margin: 0;
+  position: relative;
+}
+#about figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 4px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  transition: 0.3s ease;
+}
+#about figure:hover figcaption{
+display: block;
+}
+.sosmed {
+  position: absolute;
+  text-align: center;
+  top: 49%;
+  width: 100%;
+}
+.sosmed a {
+  color: #FFF;
+  padding: 8px 5px;
+  font-size: 16px;
+}
